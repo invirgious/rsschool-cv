@@ -63,3 +63,7 @@ function countPositivesSumNegatives(input) {
 * Modern JavaScript Tutorial on [learn.javascript.ru](https://learn.javascript.ru/) (in progress)
 * JavaScript Algorithms and Data Structures on [freeCodeCamp.org](https://www.freecodecamp.org/) (in progress)
 * The Complete JavaScript + React Course - From Zero to Result on [Udemy.com](https://www.udemy.com/) (in progress)
+
+## Languages
+* English - B1 (intermediate)
+* Russian - Native
