@@ -22,3 +22,44 @@ My path in programming began with the fact that I decided to go to university ma
   *  XD
 * Figma
 * Git / GitHub
+  
+## Code Example
+
+__Count of positives / sum of negatives__
+Return an array, where the first element is the count of positives numbers and the second element is sum of negative numbers. 0 is neither positive nor negative.
+
+If the input is an empty array or is null, return an empty array.
+
+__Solution__
+
+```javascript
+function countPositivesSumNegatives(input) {
+  let array = [0,0];
+  
+  if(input == null || input.length === 0){
+    return [];
+  }
+
+  for(let i = 0; i < input.length; i++){
+    if(input[i] > 0){
+        array[0] += 1;
+  }
+  else {
+    array[1] += input[i];
+  }
+
+  }
+    return array;
+  }
+```
+## Education
+
+2018 - 2022
+* __Bachelores Degree__<br>
+  __Don State Technical University__ - IT-systems and technologies
+
+## Education Courses
+
+* Modern JavaScript Tutorial on [learn.javascript.ru](https://learn.javascript.ru/) (in progress)
+* JavaScript Algorithms and Data Structures on [freeCodeCamp.org](https://www.freecodecamp.org/) (in progress)
+* The Complete JavaScript + React Course - From Zero to Result on [Udemy.com](https://www.udemy.com/) (in progress)
