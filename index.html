@@ -1,12 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/normilaze.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Rsschool-cv-html</title>
 </head>
+
 <body>
-    
+    <div class="cv">
+        <div class="cv__left">
+            <div class="cv__photo">
+                <img src="img/invirgious.png" alt="CV-Photo">
+            </div>
+            <h1 class="cv__title">Ksenia Fedisheva</h1>
+            <h3 class="cv__post">Junior Frontend Developer</h2>
+                <div class="cv__contacts">
+                    <div class="cv__blocks">
+                        <h2 class="cv__subtitle">Contacts</h1>
+                    </div>
+                    <ul>
+                        <li class="cv__left__item">Location: Russia, Rostov-on-Don</li>
+                        <li class="cv__left__item">Email:<a href="mailto:tubiksu@gmail.com" class="cv__mail">
+                                tubiksu@gmail.com</a></li>
+                        <li class="cv__left__item">Phone: 8 (928) 155 - 77 - 93</li>
+                        <li class="cv__left__item">Telegram: farfelue</li>
+                        <li class="cv__left__item">GitHub:<a href="https://github.com/invirgious" class="cv__mail">
+                                invirgious</a></li>
+                    </ul>
+                </div>
+                <div class="cv__skills">
+                    <div class="cv__blocks">
+                        <h2 class="cv__subtitle">Skills</h1>
+                    </div>
+                    <ul>
+                        <li class="cv__left__item">HTML5 / CSS3</li>
+                        <li class="cv__left__item">JavaScipt (basic)</li>
+                        <li class="cv__left__item">Adobe :</li>
+                    </ul>
+                    <li class="cv__left__item">Photoshop</li>
+                    <li class="cv__left__item">Illustrator</li>
+                    <li class="cv__left__item">XD</li>
+                    <ul>
+                        <li class="cv__left__item">Figma</li>
+                        <li class="cv__left__item">Git / GitHub</li>
+                    </ul>
+                </div>
+                <div class="cv__languages">
+                    <div class="cv__blocks">
+                        <h2 class="cv__subtitle">Languages</h2>
+                    </div>
+                    <ul>
+                        <li class="cv__left__item">English - B1 (intermediate)</li>
+                        <li class="cv__left__item">Russian - Native</li>
+                    </ul>
+                </div>
+        </div>
+        <div class="cv__right">
+            <h2 class="cv__right__subtitle">About Me</h2>
+            <p class="cv__item">My path in programming began with the fact that I
+                decided to go to university majoring in IT-systems and technologies.
+                During my studies, I spent a long time looking for exactly the IT direction
+                that I would like to do with pleasure every day. After years of searching and trying,
+                I realized that the very direction is frontend development. I really like the field of programming in
+                general,
+                so in the future I plan to link my life with development, in particular with the development of the
+                client side of websites.</p>
+            <h2 class="cv__right__subtitle">Education</h2>
+            <p class="cv__item">2018 - 2022<br>
+                <b>Bachelores Degree</b><br>
+                <b>Don State Technical University</b> - IT-systems and technologies</p>
+            <h2 class="cv__right__subtitle">Education Courses</h2>
+            <ul>
+                <li class="cv__item">Modern JavaScript Tutorial on <b><a
+                            href="https://learn.javascript.ru/">learn.javascript</a></b> (in progress)</li>
+                <li class="cv__item">JavaScript Algorithms and Data Structures on <b><a
+                            href="https://www.freecodecamp.org/">freeCodeCamp</a></b> (in
+                    progress)</li>
+                <li class="cv__item">The Complete JavaScript + React Course - From Zero to Result on
+                    <b><a href="https://www.udemy.com/">Udemy</a></b> (in progress)</li>
+            </ul>
+            <h2 class="cv__right__subtitle">Code Example</h2>
+            <p class="cv__item"><b>Count of positives / sum of negatives</b><br>
+                Return an array, where the first element is the count of positives
+                numbers and the second element is sum of negative numbers. 0 is neither positive nor negative.
+                If the input is an empty array or is null, return an empty array.</p>
+            <br>
+            <pre>
+<code>function countPositivesSumNegatives(input) {
+    let array = [0,0];
+    if(input == null || input.length === 0){
+        return []; 
+        }
+    for(let i = 0; i < input.length; i++){
+        if(input[i] > 0){
+            array[0] += 1;
+        }
+        else {
+            array[1] += input[i];
+        }
+    }
+      return array;
+  }
+            </code>
+            </pre>
+        </div>
+    </div>
 </body>
+
 </html>
